@@ -1,4 +1,6 @@
-package headfirst.designpatterns.observer.weather;
+package headfirst.designpatterns.observer.weather.observer;
+
+import headfirst.designpatterns.observer.weather.subject.WeatherData;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
 	private float maxTemp = 0.0f;

@@ -1,6 +1,8 @@
-package headfirst.designpatterns.observer.weather;
+package headfirst.designpatterns.observer.weather.subject;
 
 import java.util.*;
+
+import headfirst.designpatterns.observer.weather.observer.Observer;
 
 public class WeatherData implements Subject {
 	private ArrayList<Observer> observers;
