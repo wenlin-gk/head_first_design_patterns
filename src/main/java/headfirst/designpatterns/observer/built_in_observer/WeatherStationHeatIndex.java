@@ -1,10 +1,10 @@
-package headfirst.designpatterns.observer.weatherobservable;
+package headfirst.designpatterns.observer.built_in_observer;
 
-import headfirst.designpatterns.observer.weatherobservable.observable.WeatherData;
-import headfirst.designpatterns.observer.weatherobservable.observer.CurrentConditionsDisplay;
-import headfirst.designpatterns.observer.weatherobservable.observer.ForecastDisplay;
-import headfirst.designpatterns.observer.weatherobservable.observer.HeatIndexDisplay;
-import headfirst.designpatterns.observer.weatherobservable.observer.StatisticsDisplay;
+import headfirst.designpatterns.observer.built_in_observer.observable.WeatherData;
+import headfirst.designpatterns.observer.built_in_observer.observer.CurrentConditionsDisplay;
+import headfirst.designpatterns.observer.built_in_observer.observer.ForecastDisplay;
+import headfirst.designpatterns.observer.built_in_observer.observer.HeatIndexDisplay;
+import headfirst.designpatterns.observer.built_in_observer.observer.StatisticsDisplay;
 
 public class WeatherStationHeatIndex {
 

@@ -1,9 +1,9 @@
-package headfirst.designpatterns.observer.weatherobservable.observer;
+package headfirst.designpatterns.observer.built_in_observer.observer;
 
 import java.util.Observable;
 import java.util.Observer;
 
-import headfirst.designpatterns.observer.weatherobservable.observable.WeatherData;
+import headfirst.designpatterns.observer.built_in_observer.observable.WeatherData;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
 	private float maxTemp = 0.0f;
