@@ -1,5 +1,15 @@
 package headfirst.designpatterns.factory.pizzafm;
 
+import headfirst.designpatterns.factory.pizzafm.pizza.ChicagoStyleCheesePizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.ChicagoStyleClamPizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.ChicagoStylePepperoniPizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.ChicagoStyleVeggiePizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.NYStyleCheesePizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.NYStyleClamPizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.NYStylePepperoniPizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.NYStyleVeggiePizza;
+import headfirst.designpatterns.factory.pizzafm.pizza.Pizza;
+
 public class DependentPizzaStore {
  
 	public Pizza createPizza(String style, String type) {

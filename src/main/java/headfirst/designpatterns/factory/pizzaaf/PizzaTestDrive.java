@@ -1,5 +1,10 @@
 package headfirst.designpatterns.factory.pizzaaf;
 
+import headfirst.designpatterns.factory.pizzaaf.pizza.Pizza;
+import headfirst.designpatterns.factory.pizzaaf.store.ChicagoPizzaStore;
+import headfirst.designpatterns.factory.pizzaaf.store.NYPizzaStore;
+import headfirst.designpatterns.factory.pizzaaf.store.PizzaStore;
+
 public class PizzaTestDrive {
  
 	public static void main(String[] args) {

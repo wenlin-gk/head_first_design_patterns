@@ -1,5 +1,7 @@
 package headfirst.designpatterns.factory.pizzas;
 
+import headfirst.designpatterns.factory.pizzas.pizza.Pizza;
+
 public class PizzaTestDrive {
  
 	public static void main(String[] args) {

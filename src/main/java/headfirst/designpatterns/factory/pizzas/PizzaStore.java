@@ -1,5 +1,7 @@
 package headfirst.designpatterns.factory.pizzas;
 
+import headfirst.designpatterns.factory.pizzas.pizza.Pizza;
+
 public class PizzaStore {
 	SimplePizzaFactory factory;
  

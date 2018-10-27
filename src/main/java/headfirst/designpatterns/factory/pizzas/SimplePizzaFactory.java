@@ -1,5 +1,11 @@
 package headfirst.designpatterns.factory.pizzas;
 
+import headfirst.designpatterns.factory.pizzas.pizza.CheesePizza;
+import headfirst.designpatterns.factory.pizzas.pizza.ClamPizza;
+import headfirst.designpatterns.factory.pizzas.pizza.PepperoniPizza;
+import headfirst.designpatterns.factory.pizzas.pizza.Pizza;
+import headfirst.designpatterns.factory.pizzas.pizza.VeggiePizza;
+
 public class SimplePizzaFactory {
 
 	public Pizza createPizza(String type) {
