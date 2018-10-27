@@ -1,4 +1,4 @@
-package headfirst.designpatterns.decorator.starbuzzWithSizes;
+package headfirst.designpatterns.decorator.starbuzz.beverage;
 
 public abstract class Beverage {
 	public enum Size { TALL, GRANDE, VENTI };
