@@ -1,5 +1,8 @@
 package headfirst.designpatterns.strategy;
 
+import headfirst.designpatterns.strategy.behavior.FlyWithWings;
+import headfirst.designpatterns.strategy.behavior.Quack;
+
 public class MallardDuck extends Duck {
 
 	public MallardDuck() {
