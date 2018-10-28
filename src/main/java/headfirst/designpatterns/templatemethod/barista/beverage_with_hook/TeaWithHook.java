@@ -1,15 +1,15 @@
-package headfirst.designpatterns.templatemethod.barista;
+package headfirst.designpatterns.templatemethod.barista.beverage_with_hook;
 
 import java.io.*;
 
-public class CoffeeWithHook extends CaffeineBeverageWithHook {
+public class TeaWithHook extends CaffeineBeverageWithHook {
  
 	public void brew() {
-		System.out.println("Dripping Coffee through filter");
+		System.out.println("Steeping the tea");
 	}
  
 	public void addCondiments() {
-		System.out.println("Adding Sugar and Milk");
+		System.out.println("Adding Lemon");
 	}
  
 	public boolean customerWantsCondiments() {
@@ -24,9 +24,10 @@ public class CoffeeWithHook extends CaffeineBeverageWithHook {
 	}
  
 	private String getUserInput() {
+		// get the user's response
 		String answer = null;
 
-		System.out.print("Would you like milk and sugar with your coffee (y/n)? ");
+		System.out.print("Would you like lemon with your tea (y/n)? ");
 
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		try {

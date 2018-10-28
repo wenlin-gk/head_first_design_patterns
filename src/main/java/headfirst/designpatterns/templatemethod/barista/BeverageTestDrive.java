@@ -1,5 +1,10 @@
 package headfirst.designpatterns.templatemethod.barista;
 
+import headfirst.designpatterns.templatemethod.barista.beverage.Coffee;
+import headfirst.designpatterns.templatemethod.barista.beverage.Tea;
+import headfirst.designpatterns.templatemethod.barista.beverage_with_hook.CoffeeWithHook;
+import headfirst.designpatterns.templatemethod.barista.beverage_with_hook.TeaWithHook;
+
 public class BeverageTestDrive {
 	public static void main(String[] args) {
  

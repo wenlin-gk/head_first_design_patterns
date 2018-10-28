@@ -1,4 +1,4 @@
-package headfirst.designpatterns.templatemethod.barista;
+package headfirst.designpatterns.templatemethod.barista.beverage;
 
 public class Tea extends CaffeineBeverage {
 	public void brew() {

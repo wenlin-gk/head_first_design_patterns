@@ -1,7 +1,8 @@
 package headfirst.designpatterns.templatemethod.frame;
 
-import java.awt.*;
-import javax.swing.*;
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
 
 public class MyFrame extends JFrame {
 	private static final long serialVersionUID = 2L;
@@ -10,10 +11,11 @@ public class MyFrame extends JFrame {
 		super(title);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		this.setSize(300,300);
+		this.setSize(300, 300);
 		this.setVisible(true);
 	}
 
+	@Override
 	public void paint(Graphics graphics) {
 		super.paint(graphics);
 		String msg = "I rule!!";
