@@ -1,4 +1,4 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package headfirst.designpatterns.iterator.diner_merger_cafe;
 
 public class MenuItem {
 	String name;

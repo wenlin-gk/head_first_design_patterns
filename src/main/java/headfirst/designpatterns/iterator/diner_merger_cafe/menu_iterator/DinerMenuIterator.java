@@ -1,6 +1,8 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package headfirst.designpatterns.iterator.diner_merger_cafe.menu_iterator;
  
 import java.util.Iterator;
+
+import headfirst.designpatterns.iterator.diner_merger_cafe.MenuItem;
   
 public class DinerMenuIterator implements Iterator<MenuItem> {
 	MenuItem[] list;

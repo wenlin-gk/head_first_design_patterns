@@ -1,6 +1,9 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package headfirst.designpatterns.iterator.diner_merger_cafe.menu_iterator;
 
 import java.util.Iterator;
+
+import headfirst.designpatterns.iterator.diner_merger_cafe.MenuItem;
+
 import java.util.Calendar;
 
 public class AlternatingDinerMenuIterator implements Iterator<MenuItem> {

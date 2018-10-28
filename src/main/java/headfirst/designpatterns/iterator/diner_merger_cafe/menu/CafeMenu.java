@@ -1,6 +1,8 @@
-package headfirst.designpatterns.iterator.dinermergercafe;
+package headfirst.designpatterns.iterator.diner_merger_cafe.menu;
 
 import java.util.*;
+
+import headfirst.designpatterns.iterator.diner_merger_cafe.MenuItem;
 
 public class CafeMenu implements Menu {
 	HashMap<String, MenuItem> menuItems = new HashMap<String, MenuItem>();

@@ -1,10 +1,17 @@
-package headfirst.designpatterns.iterator.dinermergeri;
+package headfirst.designpatterns.iterator.diner_merger_cafe;
+
+import headfirst.designpatterns.iterator.diner_merger_cafe.menu.CafeMenu;
+import headfirst.designpatterns.iterator.diner_merger_cafe.menu.DinerMenu;
+import headfirst.designpatterns.iterator.diner_merger_cafe.menu.PancakeHouseMenu;
 
 public class MenuTestDrive {
 	public static void main(String args[]) {
 		PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
 		DinerMenu dinerMenu = new DinerMenu();
-		Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+		CafeMenu cafeMenu = new CafeMenu();
+ 
+		Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu, cafeMenu);
+ 
 		waitress.printMenu();
 		waitress.printVegetarianMenu();
 
@@ -22,6 +29,5 @@ public class MenuTestDrive {
 		} else {
 			System.out.println("No");
 		}
-
 	}
 }
