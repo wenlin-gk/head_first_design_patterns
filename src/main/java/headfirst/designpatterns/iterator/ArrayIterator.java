@@ -1,6 +1,5 @@
 package headfirst.designpatterns.iterator;
 
-import headfirst.designpatterns.collections.iterator.Iterator;
 import headfirst.designpatterns.iterator.diner_merger_cafe.MenuItem;
 
 public class ArrayIterator implements Iterator {

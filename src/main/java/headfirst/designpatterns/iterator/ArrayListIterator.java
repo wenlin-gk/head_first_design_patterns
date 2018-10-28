@@ -2,7 +2,6 @@ package headfirst.designpatterns.iterator;
 
 import java.util.ArrayList;
 
-import headfirst.designpatterns.collections.iterator.Iterator;
 import headfirst.designpatterns.iterator.diner_merger_cafe.MenuItem;
 
 public class ArrayListIterator implements Iterator {
