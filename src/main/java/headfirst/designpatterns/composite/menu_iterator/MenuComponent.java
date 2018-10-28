@@ -1,4 +1,4 @@
-package headfirst.designpatterns.composite.menuiterator;
+package headfirst.designpatterns.composite.menu_iterator;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.composite.menuiterator;
+package headfirst.designpatterns.composite.menu_iterator;
 
 public class MenuTestDrive {
 	public static void main(String args[]) {
