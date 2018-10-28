@@ -1,5 +1,21 @@
 package headfirst.designpatterns.command.party;
 
+import headfirst.designpatterns.command.party.command.Command;
+import headfirst.designpatterns.command.party.command.HottubOffCommand;
+import headfirst.designpatterns.command.party.command.HottubOnCommand;
+import headfirst.designpatterns.command.party.command.LightOffCommand;
+import headfirst.designpatterns.command.party.command.LightOnCommand;
+import headfirst.designpatterns.command.party.command.MacroCommand;
+import headfirst.designpatterns.command.party.command.StereoOffCommand;
+import headfirst.designpatterns.command.party.command.StereoOnCommand;
+import headfirst.designpatterns.command.party.command.TVOffCommand;
+import headfirst.designpatterns.command.party.command.TVOnCommand;
+import headfirst.designpatterns.command.party.invoker.RemoteControl;
+import headfirst.designpatterns.command.party.receiver.Hottub;
+import headfirst.designpatterns.command.party.receiver.Light;
+import headfirst.designpatterns.command.party.receiver.Stereo;
+import headfirst.designpatterns.command.party.receiver.TV;
+
 public class RemoteLoader {
 
 	public static void main(String[] args) {

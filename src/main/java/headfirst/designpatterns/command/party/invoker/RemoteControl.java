@@ -1,17 +1,17 @@
-package headfirst.designpatterns.command.undo;
+package headfirst.designpatterns.command.party.invoker;
 
-import headfirst.designpatterns.command.undo.command.Command;
-import headfirst.designpatterns.command.undo.command.NoCommand;
+import headfirst.designpatterns.command.party.command.Command;
+import headfirst.designpatterns.command.party.command.NoCommand;
 
 //
 // This is the invoker
 //
-public class RemoteControlWithUndo {
+public class RemoteControl {
 	Command[] onCommands;
 	Command[] offCommands;
 	Command undoCommand;
  
-	public RemoteControlWithUndo() {
+	public RemoteControl() {
 		onCommands = new Command[7];
 		offCommands = new Command[7];
  
@@ -37,11 +37,11 @@ public class RemoteControlWithUndo {
 		offCommands[slot].execute();
 		undoCommand = offCommands[slot];
 	}
- 
+
 	public void undoButtonWasPushed() {
 		undoCommand.undo();
 	}
-  
+ 
 	public String toString() {
 		StringBuffer stringBuff = new StringBuffer();
 		stringBuff.append("\n------ Remote Control -------\n");

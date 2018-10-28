@@ -1,5 +1,11 @@
 package headfirst.designpatterns.command.undo;
 
+import headfirst.designpatterns.command.undo.command.CeilingFanHighCommand;
+import headfirst.designpatterns.command.undo.command.CeilingFanMediumCommand;
+import headfirst.designpatterns.command.undo.command.CeilingFanOffCommand;
+import headfirst.designpatterns.command.undo.command.LightOffCommand;
+import headfirst.designpatterns.command.undo.command.LightOnCommand;
+
 public class RemoteLoader {
  
 	public static void main(String[] args) {

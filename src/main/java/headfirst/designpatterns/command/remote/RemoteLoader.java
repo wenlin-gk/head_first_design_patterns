@@ -1,5 +1,19 @@
 package headfirst.designpatterns.command.remote;
 
+import headfirst.designpatterns.command.remote.command.CeilingFanOffCommand;
+import headfirst.designpatterns.command.remote.command.CeilingFanOnCommand;
+import headfirst.designpatterns.command.remote.command.GarageDoorDownCommand;
+import headfirst.designpatterns.command.remote.command.GarageDoorUpCommand;
+import headfirst.designpatterns.command.remote.command.LightOffCommand;
+import headfirst.designpatterns.command.remote.command.LightOnCommand;
+import headfirst.designpatterns.command.remote.command.StereoOffCommand;
+import headfirst.designpatterns.command.remote.command.StereoOnWithCDCommand;
+import headfirst.designpatterns.command.remote.invoker.RemoteControl;
+import headfirst.designpatterns.command.remote.receiver.CeilingFan;
+import headfirst.designpatterns.command.remote.receiver.GarageDoor;
+import headfirst.designpatterns.command.remote.receiver.Light;
+import headfirst.designpatterns.command.remote.receiver.Stereo;
+
 public class RemoteLoader {
  
 	public static void main(String[] args) {

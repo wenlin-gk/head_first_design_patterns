@@ -1,26 +1,24 @@
-package headfirst.designpatterns.command.undo;
+package headfirst.designpatterns.command.remote.invoker;
 
-import headfirst.designpatterns.command.undo.command.Command;
-import headfirst.designpatterns.command.undo.command.NoCommand;
+import headfirst.designpatterns.command.remote.command.Command;
+import headfirst.designpatterns.command.remote.command.NoCommand;
 
 //
 // This is the invoker
 //
-public class RemoteControlWithUndo {
+public class RemoteControl {
 	Command[] onCommands;
 	Command[] offCommands;
-	Command undoCommand;
  
-	public RemoteControlWithUndo() {
+	public RemoteControl() {
 		onCommands = new Command[7];
 		offCommands = new Command[7];
  
 		Command noCommand = new NoCommand();
-		for(int i=0;i<7;i++) {
+		for (int i = 0; i < 7; i++) {
 			onCommands[i] = noCommand;
 			offCommands[i] = noCommand;
 		}
-		undoCommand = noCommand;
 	}
   
 	public void setCommand(int slot, Command onCommand, Command offCommand) {
@@ -30,16 +28,10 @@ public class RemoteControlWithUndo {
  
 	public void onButtonWasPushed(int slot) {
 		onCommands[slot].execute();
-		undoCommand = onCommands[slot];
 	}
  
 	public void offButtonWasPushed(int slot) {
 		offCommands[slot].execute();
-		undoCommand = offCommands[slot];
-	}
- 
-	public void undoButtonWasPushed() {
-		undoCommand.undo();
 	}
   
 	public String toString() {
@@ -49,7 +41,6 @@ public class RemoteControlWithUndo {
 			stringBuff.append("[slot " + i + "] " + onCommands[i].getClass().getName()
 				+ "    " + offCommands[i].getClass().getName() + "\n");
 		}
-		stringBuff.append("[undo] " + undoCommand.getClass().getName() + "\n");
 		return stringBuff.toString();
 	}
 }
