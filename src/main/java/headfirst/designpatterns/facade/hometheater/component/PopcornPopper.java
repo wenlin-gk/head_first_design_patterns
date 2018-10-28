@@ -1,4 +1,4 @@
-package headfirst.designpatterns.facade.hometheater;
+package headfirst.designpatterns.facade.hometheater.component;
 
 public class PopcornPopper {
 	String description;

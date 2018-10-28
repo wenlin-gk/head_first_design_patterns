@@ -1,4 +1,7 @@
-package headfirst.designpatterns.ducks;
+package headfirst.designpatterns.adapter.ducks.adapter;
+
+import headfirst.designpatterns.adapter.ducks.adaptee.Turkey;
+import headfirst.designpatterns.adapter.ducks.target.Duck;
 
 public class TurkeyAdapter implements Duck {
 	Turkey turkey;

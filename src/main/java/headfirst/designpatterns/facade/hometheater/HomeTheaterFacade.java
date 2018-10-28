@@ -1,5 +1,14 @@
 package headfirst.designpatterns.facade.hometheater;
 
+import headfirst.designpatterns.facade.hometheater.component.Amplifier;
+import headfirst.designpatterns.facade.hometheater.component.CdPlayer;
+import headfirst.designpatterns.facade.hometheater.component.DvdPlayer;
+import headfirst.designpatterns.facade.hometheater.component.PopcornPopper;
+import headfirst.designpatterns.facade.hometheater.component.Projector;
+import headfirst.designpatterns.facade.hometheater.component.Screen;
+import headfirst.designpatterns.facade.hometheater.component.TheaterLights;
+import headfirst.designpatterns.facade.hometheater.component.Tuner;
+
 public class HomeTheaterFacade {
 	Amplifier amp;
 	Tuner tuner;
