@@ -1,7 +1,10 @@
 package headfirst.designpatterns.proxy.gumball;
 
-import java.rmi.*;
- 
+import java.rmi.RemoteException;
+
+/**
+ * 本地客户端监听器
+ */
 public class GumballMonitor {
 	GumballMachineRemote machine;
  

@@ -1,5 +1,5 @@
 package headfirst.designpatterns.proxy.gumball;
-import java.rmi.*;
+import java.rmi.Naming;
 
 public class GumballMachineTestDrive {
  
