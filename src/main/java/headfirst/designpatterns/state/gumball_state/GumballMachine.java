@@ -1,4 +1,10 @@
-package headfirst.designpatterns.state.gumballstate;
+package headfirst.designpatterns.state.gumball_state;
+
+import headfirst.designpatterns.state.gumball_state.state.HasQuarterState;
+import headfirst.designpatterns.state.gumball_state.state.NoQuarterState;
+import headfirst.designpatterns.state.gumball_state.state.SoldOutState;
+import headfirst.designpatterns.state.gumball_state.state.SoldState;
+import headfirst.designpatterns.state.gumball_state.state.State;
 
 public class GumballMachine {
  
@@ -37,24 +43,24 @@ public class GumballMachine {
 		state.dispense();
 	}
  
-	void releaseBall() {
+	public void releaseBall() {
 		System.out.println("A gumball comes rolling out the slot...");
 		if (count != 0) {
 			count = count - 1;
 		}
 	}
  
-	int getCount() {
+	public int getCount() {
 		return count;
 	}
  
-	void refill(int count) {
+	public void refill(int count) {
 		this.count += count;
 		System.out.println("The gumball machine was just refilled; it's new count is: " + this.count);
 		state.refill();
 	}
 
-	void setState(State state) {
+	public void setState(State state) {
 		this.state = state;
 	}
     public State getState() {

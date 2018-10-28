@@ -1,4 +1,4 @@
-package headfirst.designpatterns.state.gumballstatewinner;
+package headfirst.designpatterns.state.gumball_state_winner;
 
 public class GumballMachineTestDrive {
 

@@ -1,4 +1,4 @@
-package headfirst.designpatterns.state.gumballstate;
+package headfirst.designpatterns.state.gumball_state;
 
 public class GumballMachineTestDrive {
 

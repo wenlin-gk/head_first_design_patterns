@@ -1,7 +1,8 @@
-package headfirst.designpatterns.state.gumballstate;
+package headfirst.designpatterns.state.gumball_state_winner.state;
+
+import headfirst.designpatterns.state.gumball_state_winner.GumballMachine;
 
 public class SoldState implements State {
- 
     GumballMachine gumballMachine;
  
     public SoldState(GumballMachine gumballMachine) {
@@ -36,5 +37,3 @@ public class SoldState implements State {
 		return "dispensing a gumball";
 	}
 }
-
-

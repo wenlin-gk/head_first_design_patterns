@@ -1,4 +1,6 @@
-package headfirst.designpatterns.state.gumballstatewinner;
+package headfirst.designpatterns.state.gumball_state.state;
+
+import headfirst.designpatterns.state.gumball_state.GumballMachine;
 
 public class NoQuarterState implements State {
     GumballMachine gumballMachine;
